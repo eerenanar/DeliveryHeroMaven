@@ -19,9 +19,8 @@ public class Hooks {
 	@After
 	public  void tearDown(Scenario scenario) throws IOException {
 		if (scenario.isFailed()) {
-			//pages.BasePage.getScreenshot(scenario.getName());
+			pages.BasePage.getScreenshot(scenario.getName());
 		}
-		//Driver.closeDriver();
-		System.out.println("after");
+		Driver.closeDriver();
 	}
 }
