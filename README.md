@@ -13,9 +13,9 @@ OOP and POM pattern was used
 
 Prerequest :
 
-Java8 JDK
+Java Latest JDK
 
-https://www.oracle.com/tr/java/technologies/javase/javase-jdk8-downloads.html
+https://www.oracle.com/tr/java/technologies/javase
 
 How to execute tests :
 
